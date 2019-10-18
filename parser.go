@@ -1,4 +1,4 @@
-package ipapk
+package appfile
 
 import (
 	"archive/zip"
@@ -6,11 +6,6 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/DHowett/go-plist"
-	"github.com/andrianbdn/iospng"
-	"github.com/fullsailor/pkcs7"
-	"github.com/shogo82148/androidbinary"
-	"github.com/shogo82148/androidbinary/apk"
 	"image"
 	"image/png"
 	"io"
@@ -22,6 +17,12 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/DHowett/go-plist"
+	"github.com/andrianbdn/iospng"
+	"github.com/fullsailor/pkcs7"
+	"github.com/shogo82148/androidbinary"
+	"github.com/shogo82148/androidbinary/apk"
 )
 
 var (

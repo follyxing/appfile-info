@@ -1,4 +1,4 @@
-package ipapk
+package appfile
 
 import (
 	"archive/zip"
