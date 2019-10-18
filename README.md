@@ -4,11 +4,11 @@ ipa and apk parser written in golang, aims to extract app information
 [![Build Status](https://travis-ci.org/follyxing/appfile-info.svg?branch=master)](https://travis-ci.org/follyxing/appfile-info)
 
 
-# app file info
+# APPFILE INFO
 
 ```go
 
-   //common
+  	//common
 	Name                     string
 	BundleId                 string
 	Version                  string
