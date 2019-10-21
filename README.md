@@ -42,7 +42,7 @@ import (
 )
 
 func main() {
-	apk, _ := ipapk.NewAppParser("test.apk")
+	apk, _ := appfile.NewAppParser("test.apk")
 	fmt.Println(apk)
 }
 ```

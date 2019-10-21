@@ -180,7 +180,7 @@ func parseApkFile(xmlFile *zip.File) (*AppInfo, error) {
 	info.BundleId = manifest.Package
 	info.Version = manifest.VersionName
 	info.Build = manifest.VersionCode
-	info.ApkDebug = manifest.Application.Debuggable != "true"
+	info.ApkDebug = manifest.Application.Debuggable == "true"
 
 	return info, nil
 }
