@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/DHowett/go-plist"
+	"github.com/follyxing/go-plist"
 	"github.com/andrianbdn/iospng"
 	"github.com/fullsailor/pkcs7"
 	"github.com/shogo82148/androidbinary"
